@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter the interger:");
+	    int a = sc.nextInt();
+	    System.out.println("Enter the decimal number:");
+	    double b = sc.nextDouble();
+	    
+	    sc.nextLine();
+	    
+	    System.out.print("Enter a string:");
+	    String name = sc.nextLine();
+	    
+		System.out.println("Integer: " + a);
+		System.out.println("Decimal: " + b);
+		System.out.println("String: " + name);
+		
+		sc.close();
+	}
+}
